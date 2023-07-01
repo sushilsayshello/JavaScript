@@ -1,0 +1,8 @@
+var guestList = ["Sushil', "Suman", "Shital", "Khim", "Sagar", "Sahil", "Roshil"];
+var guestName = prompt("What is your name ?");
+
+if (guestList.includes(guestName)){
+alert("Welcome!");
+} else{
+  alert("Sorry, maybe next time.");
+}
